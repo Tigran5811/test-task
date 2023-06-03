@@ -1,0 +1,26 @@
+.container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  border: 2px solid #000;
+  font-size: 14px;
+  font-weight: bold;
+}
+.box p {
+  max-width: 500px;
+}
+
+.container_button {
+  padding: 5px, 20px;
+  display: flex;
+  justify-content: space-between;
+}
